@@ -478,12 +478,18 @@ p {
   margin-top: -0.7rem;
 }
 
-.logo a {
+.logo a{
+  display:block;
+  width: 45px;
+  height: auto;
+}
+
+ /*.logo a {
   color: var(--first-color);
   font-weight: bold;
   font-size: 1.5rem;
   text-decoration: none;
-}
+} */
 
 .portfolio-card {
   position: relative;
